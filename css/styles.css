@@ -33,7 +33,9 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .top-conteiner,
@@ -135,7 +137,37 @@ p {
 }
 
 .head-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.head-title {
+  margin-left: auto;
+  margin-right: auto;
   width: 696px;
+
+  color: var(--color-primary-title);
+  margin-bottom: 30px;
+}
+
+.head-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.head-button-font {
+  padding: 10px 24px;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .features {
@@ -143,6 +175,9 @@ p {
 }
 .features .item + .item {
   margin-left: 30px;
+}
+.features .item {
+  width: 270px;
 }
 
 .features-title {
@@ -172,6 +207,11 @@ p {
   margin-left: 30px;
 }
 
+.team-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .work-title,
 .team-title {
   margin-bottom: 50px;
@@ -183,7 +223,6 @@ p {
 }
 
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--color-title);
   font-weight: 500;
@@ -223,6 +262,7 @@ p {
 }
 
 .button-font {
+  padding: 6px 22px;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -256,6 +296,10 @@ p {
   margin-bottom: 0;
 }
 
+.example-block {
+  padding: 20px 24px;
+}
+
 .example-title {
   color: var(--color-title);
   font-size: 18px;
@@ -286,43 +330,16 @@ p {
 .foot-container {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
-  padding-top: 60px;
-
   color: var(--color-primary-title);
 }
 
 .footer-addr {
   color: var(--color-primary-title);
-}
-
-.head-title {
-  padding-top: 200px;
-
-  color: var(--color-primary-title);
-  margin-bottom: 30px;
-}
-
-.head-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.head-button-font {
-  margin-bottom: 200px;
-
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
 
 .addr {
@@ -340,9 +357,6 @@ p {
   line-height: 1.714;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-.footer-link:last-child {
-  margin-bottom: 60px;
 }
 
 .footer-addr {
